@@ -9,4 +9,5 @@ public class Main {
         pisi1.mananca();
         System.out.println(pisi1.naste());
     }
+
 }
