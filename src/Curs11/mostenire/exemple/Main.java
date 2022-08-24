@@ -10,4 +10,5 @@ public class Main {
         System.out.println(pisi1.naste());
     }
 
+
 }
