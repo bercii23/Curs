@@ -30,4 +30,8 @@ public class Person {
         System.out.println(this.name);
         System.out.println(this.age);
     }
+
+    public void mananca(){
+        System.out.println("Persoana cu numele " + this.name + " mananca zacusca");
+    }
 }

@@ -18,7 +18,8 @@ public class Student extends Person {
         System.out.println(this.medie);
     }
 
+    @Override
     public void mananca(){
-        System.out.println("Persoana cu numele" + this.name + "mananca zacusca");
+        System.out.println("Studentul cu numele " + this.name + " mananca zacusca");
     }
 }

@@ -9,6 +9,8 @@ public class MAIN {
         System.out.println(p1.age);
         System.out.println(s1.facultate);
         System.out.println(s1.medie);
+        p1.mananca();
+        s1.mananca();
     }
 
 }
