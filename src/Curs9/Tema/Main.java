@@ -15,8 +15,4 @@ public class Main {
     void atribuieInversul(int nr){
         nr = -nr;
     }
-
-     void cresteVarsta(Person){
-
-    }
 }

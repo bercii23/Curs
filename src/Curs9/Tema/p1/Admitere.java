@@ -1,7 +1,7 @@
 package Curs9.Tema.p1;
 
 public class Admitere {
-    private double ultimaMedie;
+    double ultimaMedie;
     private int locuriTotale;
     private int locuriOcupate;
 
@@ -30,15 +30,15 @@ public class Admitere {
     }
         int locuriOcupate1;
         int locuriTotale1;
-
-        static boolean acceptaStudent(Student student){
-            if(locuriOcupate1 == locuriOcupate){
-            return false;
-        }
-        else if(medieStudent > ultimaMedie){
-            return true;
-        }
-    }
+        int medieStudent;
+         boolean acceptaStudent(Student student) {
+             if (locuriOcupate1 == locuriOcupate) {
+                 return false;
+             } else if (medieStudent > ultimaMedie) {
+                 return true;
+             }
+         return true;
+         }
 }
 
 

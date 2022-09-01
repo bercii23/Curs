@@ -1,7 +1,7 @@
 package Proiect;
 
 public class SalaFitness {
-    Persoana[] persoane = new persoane[3];
+    Persoana[] persoane = new Persoana[3];
 
     int nrPersoane;
     boolean esteDeschisa;
@@ -17,10 +17,6 @@ public class SalaFitness {
         }
         else if(nrPersoane < 3){
             Antrenor antrenor1 = new Antrenor("Radu", 35,2);
-        }
-
-        for (Persoana persoana : persoane) {
-
         }
     }
 }
